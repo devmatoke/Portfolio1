@@ -139,3 +139,12 @@
     font-size: 15px;
   }
 }
+
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;   /* circle shape */
+  border: 3px solid #00bcd4;
+  display: block;
+}

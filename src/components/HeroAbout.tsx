@@ -6,10 +6,11 @@ export default function HeroAbout() {
       <div className="container">
         <div className="hero-about-content">
           <div className="photo-section">
-            <div className="photo-placeholder">
-              <div className="photo-text">Matoke</div>
-              <div className="photo-instruction">(250x250px)</div>
-            </div>
+            <img 
+              src="src/assets/DSC09588-1.jpg" 
+              alt="Dancan Matoke Oribu"
+              className="profile-photo"
+            />
           </div>
 
           <div className="about-section">
