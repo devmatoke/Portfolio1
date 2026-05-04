@@ -7,7 +7,7 @@ export default function HeroAbout() {
         <div className="hero-about-content">
           <div className="photo-section">
             <div className="photo-placeholder">
-              <div className="photo-text">Add your photo</div>
+              <div className="photo-text">Matoke</div>
               <div className="photo-instruction">(250x250px)</div>
             </div>
           </div>

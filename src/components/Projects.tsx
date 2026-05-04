@@ -19,7 +19,7 @@ const projects: Project[] = [
     category: 'software',
     tags: ['React', 'TypeScript', 'Web3'],
     link: 'https://dancanoribu.dev',
-    github: 'https://github.com/dancanoribu'
+    github: 'https://github.com/devmatoke'
   },
   {
     id: '2',
@@ -27,7 +27,7 @@ const projects: Project[] = [
     description: 'Multiple decentralized applications built on the Internet Computer using Motoko canisters and React frontends during hackathons and incubation cycles.',
     category: 'software',
     tags: ['Motoko', 'React', 'ICP', 'Blockchain'],
-    github: 'https://github.com/dancanoribu'
+    github: 'https://github.com/devmatoke'
   },
   {
     id: '3',
