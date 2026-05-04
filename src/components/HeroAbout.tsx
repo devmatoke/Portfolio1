@@ -1,4 +1,5 @@
 import './HeroAbout.css'
+import profilePhoto from '../assets/profile.jpg';
 
 export default function HeroAbout() {
   return (
@@ -6,11 +7,7 @@ export default function HeroAbout() {
       <div className="container">
         <div className="hero-about-content">
           <div className="photo-section">
-            <img 
-              src="src/assets/DSC09588-1.jpg" 
-              alt="Dancan Matoke Oribu"
-              className="profile-photo"
-            />
+            <img src={profilePhoto} alt="Dancan Matoke Oribu" className="profile-photo" />
           </div>
 
           <div className="about-section">
