@@ -34,8 +34,8 @@ export default function HeroAbout() {
               <a href="tel:+254746138718" className="contact-link">
                 <span>📱</span> +254 746 138 718
               </a>
-              <a href="https://github.com/dancanoribu" target="_blank" rel="noopener noreferrer" className="contact-link">
-                <span>🐙</span> github.com/dancanoribu
+              <a href="https://github.com/devmatoke" target="_blank" rel="noopener noreferrer" className="contact-link">
+                <span>🐙</span> https://github.com/devmatoke
               </a>
               <p className="location">📍 Nairobi, Kenya</p>
             </div>

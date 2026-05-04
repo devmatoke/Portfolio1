@@ -25,10 +25,10 @@ export default function Contact() {
               <p>+254 746 138 718</p>
             </a>
 
-            <a href="https://github.com/dancanoribu" target="_blank" rel="noopener noreferrer" className="contact-card">
+            <a href="https://github.com/devmatoke" target="_blank" rel="noopener noreferrer" className="contact-card">
               <div className="card-icon">🐙</div>
               <h3>GitHub</h3>
-              <p>github.com/dancanoribu</p>
+              <p>https://github.com/devmatoke</p>
             </a>
 
             <a href="#" className="contact-card" onClick={(e) => e.preventDefault()}>
