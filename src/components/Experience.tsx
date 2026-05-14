@@ -69,28 +69,32 @@ const experiences: ExperienceItem[] = [
   }
 ]
 
-function ExperienceCard({ experience }: { experience: ExperienceItem }) {
+function ExperienceCard({ experience, index }: { experience: ExperienceItem; index: number }) {
+  const isLeft = index % 2 === 0;
+  
   return (
-    <div className={`experience-card ${experience.type}`}>
-      <div className="experience-header">
-        <div className="experience-title">
-          <h3>{experience.role}</h3>
-          <p className="company">{experience.company}</p>
+    <div className={`experience-card-wrapper ${isLeft ? 'left' : 'right'}`}>
+      <div className={`experience-card ${experience.type}`}>
+        <div className="experience-header">
+          <div className="experience-title">
+            <h3>{experience.role}</h3>
+            <p className="company">{experience.company}</p>
+          </div>
+          <span className={`exp-badge ${experience.type}`}>
+            {experience.type === 'software' ? '💻' : experience.type === 'data' ? '📊' : '🤝'}
+            {experience.type.charAt(0).toUpperCase() + experience.type.slice(1)}
+          </span>
         </div>
-        <span className={`exp-badge ${experience.type}`}>
-          {experience.type === 'software' ? '💻' : experience.type === 'data' ? '📊' : '🤝'}
-          {experience.type.charAt(0).toUpperCase() + experience.type.slice(1)}
-        </span>
+        
+        <p className="period">{experience.period}</p>
+        <p className="description">{experience.description}</p>
+        
+        <ul className="highlights">
+          {experience.highlights.map((highlight) => (
+            <li key={highlight}>{highlight}</li>
+          ))}
+        </ul>
       </div>
-      
-      <p className="period">{experience.period}</p>
-      <p className="description">{experience.description}</p>
-      
-      <ul className="highlights">
-        {experience.highlights.map((highlight) => (
-          <li key={highlight}>{highlight}</li>
-        ))}
-      </ul>
     </div>
   )
 }
@@ -105,8 +109,8 @@ export default function Experience() {
         </div>
 
         <div className="experience-timeline">
-          {experiences.map((exp) => (
-            <ExperienceCard key={exp.id} experience={exp} />
+          {experiences.map((exp, index) => (
+            <ExperienceCard key={exp.id} experience={exp} index={index} />
           ))}
         </div>
       </div>
