@@ -14,25 +14,25 @@ export default function Contact() {
 
           <div className="contact-methods">
             <a href="mailto:dancanoribu@gmail.com" className="contact-card">
-              <div className="card-icon">📧</div>
+              <div className="card-icon"></div>
               <h3>Email</h3>
               <p>dancanoribu@gmail.com</p>
             </a>
 
             <a href="tel:+254746138718" className="contact-card">
-              <div className="card-icon">📱</div>
+              <div className="card-icon"></div>
               <h3>Phone</h3>
               <p>+254 746 138 718</p>
             </a>
 
             <a href="https://github.com/devmatoke" target="_blank" rel="noopener noreferrer" className="contact-card">
-              <div className="card-icon">🐙</div>
+              <div className="card-icon"></div>
               <h3>GitHub</h3>
               <p>https://github.com/devmatoke</p>
             </a>
 
             <a href="#" className="contact-card" onClick={(e) => e.preventDefault()}>
-              <div className="card-icon">📍</div>
+              <div className="card-icon"></div>
               <h3>Location</h3>
               <p>Nairobi, Kenya</p>
             </a>
