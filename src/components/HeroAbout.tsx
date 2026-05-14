@@ -27,15 +27,15 @@ export default function HeroAbout() {
 
             <div className="contact-info">
               <a href="mailto:dancanoribu@gmail.com" className="contact-link">
-                <span>📧</span> dancanoribu@gmail.com
+                <span></span> dancanoribu@gmail.com
               </a>
               <a href="tel:+254746138718" className="contact-link">
-                <span>📱</span> +254 746 138 718
+                <span></span> +254 746 138 718
               </a>
               <a href="https://github.com/devmatoke" target="_blank" rel="noopener noreferrer" className="contact-link">
-                <span>🐙</span> https://github.com/devmatoke
+                <span></span> https://github.com/devmatoke
               </a>
-              <p className="location">📍 Nairobi, Kenya</p>
+              <p className="location"> Nairobi, Kenya</p>
             </div>
           </div>
         </div>
