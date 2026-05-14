@@ -1,6 +1,6 @@
 .experience {
-  padding: 60px 20px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 80px 24px;
+  background: var(--bg-secondary);
 }
 
 .experience .container {
@@ -16,13 +16,13 @@
 .experience-header-section h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #1a1a1a;
+  color: var(--text-primary);
   font-weight: 700;
 }
 
 .experience-header-section p {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--text-secondary);
   max-width: 600px;
   margin: 0 auto;
 }
@@ -73,16 +73,16 @@
 .experience-card {
   position: relative;
   padding: 25px;
-  background: white;
+  background: var(--bg-primary);
   border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-sm);
   border: 2px solid;
   transition: all 0.3s ease;
 }
 
 .experience-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
 }
 
 .experience-card.software {
@@ -119,17 +119,17 @@
 
 .experience-card.software::after {
   border-color: #667eea;
-  background: #f5f7fa;
+  background: var(--bg-secondary);
 }
 
 .experience-card.data::after {
   border-color: #764ba2;
-  background: #f5f7fa;
+  background: var(--bg-secondary);
 }
 
 .experience-card.community::after {
   border-color: #f093fb;
-  background: #f5f7fa;
+  background: var(--bg-secondary);
 }
 
 .experience-header {
@@ -143,13 +143,13 @@
 .experience-title h3 {
   font-size: 1.4rem;
   margin: 0 0 5px 0;
-  color: #1a1a1a;
+  color: var(--text-primary);
   font-weight: 600;
 }
 
 .company {
   font-size: 1rem;
-  color: #667eea;
+  color: var(--accent-primary);
   font-weight: 500;
   margin: 0;
 }
@@ -180,14 +180,14 @@
 
 .period {
   font-size: 0.95rem;
-  color: #999;
+  color: var(--text-tertiary);
   margin: 0 0 10px 0;
   font-style: italic;
 }
 
 .description {
   font-size: 1rem;
-  color: #555;
+  color: var(--text-secondary);
   margin-bottom: 15px;
   line-height: 1.6;
 }
@@ -200,7 +200,7 @@
 
 .highlights li {
   font-size: 0.95rem;
-  color: #666;
+  color: var(--text-secondary);
   padding: 8px 0 8px 25px;
   position: relative;
   line-height: 1.5;
